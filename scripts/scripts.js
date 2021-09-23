@@ -7,6 +7,7 @@ function initalizedApp(){
 async function displayMeme(){
     try{
         const response = await
+        // This is a change...
         fetch("https://api.imgflip.com/get_memes");
         const jsonResponse = await response.json();
         
